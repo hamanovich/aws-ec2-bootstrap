@@ -1,0 +1,25 @@
+{
+  "name": "aws-ec2-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2 start ./server.js --name hello_aws --log ../logs/app.log ",
+    "stop": "pm2 stop hello_aws",
+    "build": "echo 'Building...'" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamanovich/aws-ec2-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamanovich/aws-ec2-bootstrap/issues"
+  },
+  "homepage": "https://github.com/hamanovich/aws-ec2-bootstrap#readme",
+  "devDependencies": {
+    "pm2": "^4.5.6"
+  }
+}
